@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Lorem Ipsum Picker",
+  "name": "One-Click Lorem",
   "version": "1.0.0",
   "description": "Pick paragraphs x sentences on a grid and copy lorem ipsum to the clipboard.",
   "permissions": [

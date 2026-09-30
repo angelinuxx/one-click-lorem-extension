@@ -1,4 +1,4 @@
-# Lorem Ipsum Picker
+# One-Click Lorem
 
 A minimal Chrome/Brave extension that copies lorem ipsum text to the clipboard.
 Click the toolbar icon, hover a 6x5 grid to pick how much text you want, click to copy.
@@ -20,7 +20,7 @@ The extension is not published on a store; load it as an unpacked extension.
 2. Open `chrome://extensions` (or `brave://extensions`).
 3. Enable **Developer mode** (top-right toggle).
 4. Click **Load unpacked** and select the repository folder.
-5. Pin the "Lorem Ipsum Picker" icon from the extensions menu, if you like.
+5. Pin the "One-Click Lorem" icon from the extensions menu, if you like.
 
 After editing the source, click the reload icon on the extension card to apply changes.
 

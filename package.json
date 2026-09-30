@@ -1,10 +1,10 @@
 {
-  "name": "lorem-ipsum-extension",
+  "name": "one-click-lorem-extension",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "package": "rm -f lorem-ipsum-picker-*.zip && zip -r -X \"lorem-ipsum-picker-$(node -p \"require('./manifest.json').version\").zip\" manifest.json popup.html popup.css popup.js lorem.js icons"
+    "package": "rm -f one-click-lorem-extension-*.zip && zip -r -X \"one-click-lorem-extension-$(node -p \"require('./manifest.json').version\").zip\" manifest.json popup.html popup.css popup.js lorem.js icons"
   }
 }
