@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "package": "rm -f lorem-ipsum-picker-*.zip && zip -r -X \"lorem-ipsum-picker-$(node -p \"require('./manifest.json').version\").zip\" manifest.json popup.html popup.css popup.js lorem.js icons"
   }
 }
