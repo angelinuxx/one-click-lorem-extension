@@ -55,3 +55,50 @@ body {
 .label.error {
   color: #d1242f;
 }
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0 0;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.toggle input {
+  appearance: none;
+  margin: 0;
+  width: 28px;
+  height: 16px;
+  border-radius: 8px;
+  background: var(--cell-bg);
+  position: relative;
+  cursor: pointer;
+  transition: background 120ms;
+}
+
+.toggle input::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--bg);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  transition: transform 120ms;
+}
+
+.toggle input:checked {
+  background: var(--cell-hl);
+}
+
+.toggle input:checked::before {
+  transform: translateX(12px);
+}
+
+.toggle input:focus-visible {
+  outline: 2px solid var(--cell-hl);
+  outline-offset: 2px;
+}

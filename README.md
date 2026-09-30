@@ -7,6 +7,10 @@ Click the toolbar icon, hover a 6x5 grid to pick how much text you want, click t
 - Hovering cell (r, c) highlights the rectangle from the top-left corner and
   produces `r` paragraphs of `c` fragments each (up to 5 paragraphs x 6 fragments).
 - Clicking copies the text and closes the popup.
+- With **Paste into page** enabled (the toggle under the grid, remembered across
+  sessions), the text is also inserted at the caret of the focused input,
+  textarea or contenteditable element of the current tab. If nothing editable
+  has the focus, only the clipboard copy happens.
 
 ## Install
 
@@ -30,7 +34,9 @@ npm test
 
 ## Files
 
-- `manifest.json`: Manifest V3, popup action, no permissions.
+- `manifest.json`: Manifest V3, popup action. Permissions: `activeTab` and
+  `scripting` (to paste into the current tab, only when the icon is clicked)
+  and `storage` (to remember the toggle).
 - `popup.html`, `popup.css`, `popup.js`: the grid UI.
 - `lorem.js`: text source, fragment list and the `buildText(rows, cols)` function.
 - `lorem.test.js`: tests for `buildText`.

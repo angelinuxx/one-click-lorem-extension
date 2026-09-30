@@ -3,6 +3,11 @@
   "name": "Lorem Ipsum Picker",
   "version": "1.0.0",
   "description": "Pick paragraphs x sentences on a grid and copy lorem ipsum to the clipboard.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
   "action": {
     "default_title": "Lorem Ipsum",
     "default_popup": "popup.html",
