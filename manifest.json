@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "One-Click Lorem",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Pick paragraphs x sentences on a grid and copy lorem ipsum to the clipboard.",
   "permissions": [
     "activeTab",
