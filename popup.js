@@ -36,7 +36,7 @@ grid.addEventListener("mouseover", (e) => {
   const cols = Number(cell.dataset.col);
   highlight(rows, cols);
   label.classList.remove("error");
-  label.textContent = `${plural(rows, "paragraph")} × ${plural(cols, "sentence")}`;
+  label.textContent = `${plural(rows, "paragraph")} × ${plural(cols, "fragment")}`;
 });
 
 grid.addEventListener("mouseleave", () => {

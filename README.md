@@ -3,9 +3,9 @@
 A minimal Chrome/Brave extension that copies lorem ipsum text to the clipboard.
 Click the toolbar icon, hover a 6x5 grid to pick how much text you want, click to copy.
 
-- Each **row** is a paragraph, each **column** is a sentence.
+- Each **row** is a paragraph, each **column** is a short fragment (the classic text split at periods, commas, "ut" and "et").
 - Hovering cell (r, c) highlights the rectangle from the top-left corner and
-  produces `r` paragraphs of `c` sentences each (up to 5 paragraphs x 6 sentences).
+  produces `r` paragraphs of `c` fragments each (up to 5 paragraphs x 6 fragments).
 - Clicking copies the text and closes the popup.
 
 ## Install
@@ -32,6 +32,6 @@ npm test
 
 - `manifest.json`: Manifest V3, popup action, no permissions.
 - `popup.html`, `popup.css`, `popup.js`: the grid UI.
-- `lorem.js`: sentence source and the `buildText(rows, cols)` function.
+- `lorem.js`: text source, fragment list and the `buildText(rows, cols)` function.
 - `lorem.test.js`: tests for `buildText`.
 - `icons/`: toolbar icons.
