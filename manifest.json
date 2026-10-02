@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "One-Click Lorem",
   "version": "1.1.0",
-  "description": "Pick paragraphs x sentences on a grid and copy lorem ipsum to the clipboard.",
+  "description": "Pick paragraphs × fragments on a grid to copy lorem ipsum to the clipboard, or paste it straight into the focused field.",
   "permissions": [
     "activeTab",
     "scripting",
