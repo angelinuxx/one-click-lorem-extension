@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "One-Click Lorem",
+  "name": "One-Click Lorem Ipsum",
   "version": "1.1.0",
-  "description": "Pick paragraphs × fragments on a grid to copy lorem ipsum to the clipboard, or paste it straight into the focused field.",
+  "description": "Lorem ipsum generator: pick paragraphs × fragments on a grid to copy placeholder text or paste it into the focused field.",
   "permissions": [
     "activeTab",
     "scripting",
