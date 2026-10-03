@@ -1,6 +1,7 @@
 # One-Click Lorem Ipsum
 
-A minimal Chrome/Brave extension that copies lorem ipsum text to the clipboard.
+A minimal Chrome/Brave lorem ipsum generator: it copies placeholder text to the
+clipboard, or pastes it straight into the focused field.
 Click the toolbar icon, hover a 6x5 grid to pick how much text you want, click to copy.
 
 - Each **row** is a paragraph, each **column** is a short fragment (the classic text split at periods, commas, "ut" and "et").
@@ -14,7 +15,8 @@ Click the toolbar icon, hover a 6x5 grid to pick how much text you want, click t
 
 ## Install
 
-The extension is not published on a store; load it as an unpacked extension.
+The extension is available on the Chrome Web Store. To run it from source, load
+it as an unpacked extension.
 
 1. Clone or download this repository.
 2. Open `chrome://extensions` (or `brave://extensions`).
